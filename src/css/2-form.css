@@ -1,0 +1,68 @@
+ .feedback-form {
+    max-width: 360px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+.form-label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    gap: 8px;
+}
+.input-form {
+    width: 100%;
+    max-width: 360px;
+    padding: 8px 16px;
+    border: 1px solid #808080;
+    border-radius: 4px; 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size:  16px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
+
+.input-form:hover, 
+.input-form:focus,
+.input-textarea:hover,
+.input-textarea:focus{
+    border: 1px solid #000;
+    outline: none;
+}
+
+.input-textarea {
+    width: 100%;
+    height: 80px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size:  16px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    outline: transparent;
+    resize: none;
+    background-color: transparent;
+    
+}
+.submit-btn {
+    max-width: 86px;
+    padding: 8px 16px;
+    background-color: #4e75ff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 16px;
+}
+.submit-btn:hover, 
+.submit-btn:focus {
+    background: #6c8cff;
+}
+
