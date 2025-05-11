@@ -58,8 +58,12 @@
   letter-spacing: 0.04em;
   color: #2e2f42;
   }
-  
-  
+  #datetime-picker:hover {
+  border: 1px solid #000;
+  }
+  #datetime-picker:active {
+    border: 1px solid #4e75ff;
+    }
   button[data-start] {
     padding: 8px 16px;
     font-size: 16px;
